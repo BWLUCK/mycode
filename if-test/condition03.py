@@ -7,8 +7,11 @@ if hostname.lower() == "mtg":
     ## determin if input matches vaule
     print("The hostname was found to be mtg")
     print("Hostname matches expected config")
-if hostname != "mtg":
-    print("Try again dummy")
+else:
+    print("Try again")
+
+#if hostname.lower() != "mtg":
+    #print("Try again")
 
 ## Print exiting script
 print("Exiting script")
