@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
-##Determine type of tranportation based on miles traveled and price of gas. 
+##Determine type of transportation based on commute miles/week and average fuel price. 
 message = "You should consider"
 
-message1 = "Get a job! "
+message1 = "You are very fortunate. "
 
 
-print("How many miles per week do you travel for work?")
+print("How many miles per week do you commute to and from work?")
 
 miles = float(input())
 
-print("Fuel cost per gallon")
+print("Approximate cost of fuel per gallon")
 
 fuel = float(input())
 
@@ -31,13 +31,13 @@ elif miles >= 100 and fuel >= 3:
 elif miles >= 100 and fuel < 3:
     message = message + " a bicycle."    
 
-elif miles >= 50:
+elif miles >= 10:
     message = " Buy whatever you like."
 
 elif miles == 0:
     message = message1
 
 else:
-    message = message + " youself lucky. "
+    message = message + " yourself lucky. "
 
 print(message)
