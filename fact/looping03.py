@@ -2,7 +2,7 @@
 # this library allows us to generate uuid values.
 import uuid
 
-howmany = int(input("How many UUIDs should b egenerated? "))
+howmany = int(input("How many UUIDs should be egenerated? "))
 
 print(" Generating UUIDs...")
 
